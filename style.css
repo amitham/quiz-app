@@ -1,0 +1,46 @@
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgb(100, 100, 100, 0.1);
+    width: 600px;
+    max-width: 100%;
+}
+
+.btn-submit{
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    font-weight: 700px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    display: block;
+    padding: 1.3rem;
+}
+
+.btn-submit:hover {
+    background-color: rgb(108, 157, 199);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+h2{
+   padding: 0 0 0 10px; 
+}
